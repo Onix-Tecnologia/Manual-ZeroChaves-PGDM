@@ -1,0 +1,67 @@
+.wy-side-nav-search {
+	background: #43097D;
+	/* background: #ffffff	; */
+	/* background: linear-gradient(to top, #03D4DB, 50%, #E605FA); */
+	margin-bottom: 0;
+}
+
+/* Vertical Logo */
+.wy-side-nav-search::before {
+	content: "";
+	display: flex;
+	width: 100%;
+	padding-top: 40%;
+	background-image: url('../images/ONIX_PRINCIPAL_BRANCA.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center top;
+}
+
+a.icon.icon-home {
+	padding-top: 10px;
+	color: #ffffff;
+}
+
+/* Horizontal Logo */
+/* .wy-side-nav-search::before {
+	content: "";
+	display: flex;
+	width: 100%;
+	padding-top: 40%;
+	background-image: url('../images/ONIX_HORIZONTAL_DEGRADE.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center top;
+	padding-bottom: 0;
+	margin-bottom: 0;
+} */
+
+.wy-side-nav-search .wy-dropdown>a, .wy-side-nav-search>a::before {
+	content: "";
+}
+
+.wy-side-nav-search .wy-dropdown>a, .wy-side-nav-search>a {
+	/* padding-top: 8%; */
+	color: black;
+}
+
+.wy-side-nav-search::after {
+	padding-top: 10px;
+}
+
+.wy-side-scroll {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.wy-menu-vertical {
+	/* background: #43097D; */
+	background: linear-gradient(to top, #03D4DB, 50%, #E605FA);
+	height: 100%;
+	background-size: contain;
+}
+
+.wy-nav-content {
+	text-align: justify;
+}
